@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <link href="styles/bootstrap.css" rel="stylesheet" />
+    <link href="styles/toastr.css" rel="stylesheet" />
+    <link href="styles/app.css" rel="stylesheet" />
+
+</head>
+<body ng-app="productManagement">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <!--ng-href="#/">Acme Product Management-->
+            <a class="navbar-brand" ui-sref="welcome">
+                Acme Product Management
+            </a>
+            <div class="navbar-header">
+                <button type="button"
+                        class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <!--<li><a href="#/products">Product List</a></li>-->
+                    <li><a ui-sref="products">Product List</a></li>
+                    <li>
+                        <a ui-sref="editProduct.productInfo({productId:0})">
+                            <i class="glyphicon glyphicon-plus"></i>
+                            Add Product
+                        </a>
+                    </li>
+                    <li><a ui-sref="priceAnalytics">Price Analytics</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" ui-view>
+        <!--<ng-view></ng-view>-->
+
+    </div>
+
+    <!--Library Scripts-->
+
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular-resource.js"></script>
+    <script src="scripts/angular-mocks.js"></script>
+    <!--<script src="scripts/angular-route.js"></script>-->
+    <script src="scripts/angular-ui-router.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/mask.js"></script>
+    <script src="scripts/ui-bootstrap-tpls-1.2.1.js"></script>
+    <script src="scripts/toastr.js"></script>
+    <script src="scripts/d3.js"></script>
+    <script src="scripts/angular-charts.min.js"></script>
+
+
+
+    <!--Application Scripts-->
+    <script src="app/app.js"></script>
+
+    <!--Domain Classes-->
+    <script src="domain/product.js"></script>
+
+
+    <!--Services-->
+    <script src="app/common/services/common.services.js"></script>
+    <script src="app/common/services/dataAccessService.js"></script>
+    <!--<script src="app/common/services/productResourceMock.js"></script>-->
+    <script src="app/common/services/productService.js"></script>
+
+    <!--Product controllers-->
+    <script src="app/WelcomeCtrl.js"></script>
+    <script src="app/products/productListCtrl.js"></script>
+    <script src="app/products/productDetailCtrl.js"></script>
+    <script src="app/products/ProductEditCtrl.js"></script>
+
+    <!--Price controllers-->
+    <script src="app/products/prices/priceAnalyticsCtrl.js"></script>
+    
+</body>
+</html>

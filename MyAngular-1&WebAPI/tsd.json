@@ -1,0 +1,42 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "angularjs/angular.d.ts": {
+      "commit": "163a4277199c3d896d9efffe24ea84c85f55c8ac"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "163a4277199c3d896d9efffe24ea84c85f55c8ac"
+    },
+    "angularjs/angular-resource.d.ts": {
+      "commit": "5d0f2126c8dac8fce0ff020218aea06607213b0d"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "5d0f2126c8dac8fce0ff020218aea06607213b0d"
+    },
+    "angularjs/angular-route.d.ts": {
+      "commit": "5d0f2126c8dac8fce0ff020218aea06607213b0d"
+    },
+    "requirejs/require.d.ts": {
+      "commit": "c393f8974d44840a6c9cc6d5b5c0188a8f05143d"
+    },
+    "bootstrap/bootstrap.d.ts": {
+      "commit": "95433230a9913054c57c715e6b91a9ae738d0b97"
+    },
+    "angular-ui-router/angular-ui-router.d.ts": {
+      "commit": "bd269cad4cb2b495f940c7b6afc5825d568029be"
+    },
+    "toastr/toastr.d.ts": {
+      "commit": "163a4277199c3d896d9efffe24ea84c85f55c8ac"
+    },
+    "angular-ui-bootstrap/angular-ui-bootstrap.d.ts": {
+      "commit": "163a4277199c3d896d9efffe24ea84c85f55c8ac"
+    },
+    "chartjs/chart.d.ts": {
+      "commit": "08ed4e9f1869e37e29514d862e0158b40e550232"
+    }
+  }
+}

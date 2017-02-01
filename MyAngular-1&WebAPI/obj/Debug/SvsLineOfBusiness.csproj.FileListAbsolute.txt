@@ -1,0 +1,6 @@
+C:\Experiments\SvsLineOfBusiness\bin\SvsLineOfBusiness.dll.config
+C:\Experiments\SvsLineOfBusiness\bin\SvsLineOfBusiness.dll
+C:\Experiments\SvsLineOfBusiness\bin\SvsLineOfBusiness.pdb
+C:\Experiments\SvsLineOfBusiness\obj\Debug\SvsLineOfBusiness.dll
+C:\Experiments\SvsLineOfBusiness\obj\Debug\SvsLineOfBusiness.pdb
+C:\Experiments\SvsLineOfBusiness\obj\Debug\SvsLineOfBusiness.csprojResolveAssemblyReference.cache

@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "SvsLineOfBusiness",
+  "main": "index.js",
+  "scripts": {
+    "test": "//node_modules/karma/bin/karma start karma.conf.js"
+  },
+  "keywords": [
+    "LineOfBusiness"
+  ],
+  "author": "Srini",
+  "license": "ISC",
+  "devDependencies": {
+    "karma": "^1.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "lite-server": "^2.2.2"
+  }
+}

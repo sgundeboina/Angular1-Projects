@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLOB.Client", "MyLOB.Client.csproj", "{D27C0591-7803-471E-B4D9-DC2227B3015F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLOB.WebAPI", "MyLOB.WebAPI\MyLOB.WebAPI.csproj", "{CDD21FC0-2548-4F02-8A9A-C97E1B395A4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D27C0591-7803-471E-B4D9-DC2227B3015F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D27C0591-7803-471E-B4D9-DC2227B3015F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D27C0591-7803-471E-B4D9-DC2227B3015F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D27C0591-7803-471E-B4D9-DC2227B3015F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD21FC0-2548-4F02-8A9A-C97E1B395A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD21FC0-2548-4F02-8A9A-C97E1B395A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD21FC0-2548-4F02-8A9A-C97E1B395A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD21FC0-2548-4F02-8A9A-C97E1B395A4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

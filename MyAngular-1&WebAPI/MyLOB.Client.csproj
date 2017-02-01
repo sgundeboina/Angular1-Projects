@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{D27C0591-7803-471E-B4D9-DC2227B3015F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>2.0</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\products\prices\priceAnalyticsView.html" />
+    <Content Include="app\products\productDetailView.html" />
+    <Content Include="app\products\productEditInfoView.html" />
+    <Content Include="app\products\productEditPriceView.html" />
+    <Content Include="app\products\productEditTagsView.html" />
+    <Content Include="app\products\productEditView.html" />
+    <Content Include="app\products\productListView.html" />
+    <Content Include="app\WelcomeView.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="images\logo.jpg" />
+    <Content Include="karma.conf.js" />
+    <Content Include="node_modules\karma-chrome-launcher\examples\simple\index.spec.js" />
+    <Content Include="node_modules\karma-chrome-launcher\examples\simple\karma.conf.js" />
+    <Content Include="node_modules\karma-chrome-launcher\gruntfile.js" />
+    <Content Include="node_modules\karma-chrome-launcher\index.js" />
+    <Content Include="node_modules\karma-chrome-launcher\test\jsflags.spec.js" />
+    <Content Include="node_modules\karma-jasmine\gruntfile.js" />
+    <Content Include="node_modules\karma-jasmine\lib\adapter.js" />
+    <Content Include="node_modules\karma-jasmine\lib\boot.js" />
+    <Content Include="node_modules\karma-jasmine\lib\index.js" />
+    <Content Include="node_modules\karma-jasmine\wallaby.js" />
+    <Content Include="node_modules\karma\common\stringify.js" />
+    <Content Include="node_modules\karma\common\util.js" />
+    <Content Include="node_modules\karma\config.tpl.js" />
+    <Content Include="node_modules\karma\context\karma.js" />
+    <Content Include="node_modules\karma\context\main.js" />
+    <Content Include="node_modules\karma\gruntfile.js" />
+    <Content Include="node_modules\karma\lib\browser.js" />
+    <Content Include="node_modules\karma\lib\browser_collection.js" />
+    <Content Include="node_modules\karma\lib\browser_result.js" />
+    <Content Include="node_modules\karma\lib\cli.js" />
+    <Content Include="node_modules\karma\lib\completion.js" />
+    <Content Include="node_modules\karma\lib\config.js" />
+    <Content Include="node_modules\karma\lib\constants.js" />
+    <Content Include="node_modules\karma\lib\detached.js" />
+    <Content Include="node_modules\karma\lib\emitter_wrapper.js" />
+    <Content Include="node_modules\karma\lib\events.js" />
+    <Content Include="node_modules\karma\lib\executor.js" />
+    <Content Include="node_modules\karma\lib\file-list.js" />
+    <Content Include="node_modules\karma\lib\file.js" />
+    <Content Include="node_modules\karma\lib\helper.js" />
+    <Content Include="node_modules\karma\lib\index.js" />
+    <Content Include="node_modules\karma\lib\init.js" />
+    <Content Include="node_modules\karma\lib\init\color_schemes.js" />
+    <Content Include="node_modules\karma\lib\init\formatters.js" />
+    <Content Include="node_modules\karma\lib\init\state_machine.js" />
+    <Content Include="node_modules\karma\lib\launcher.js" />
+    <Content Include="node_modules\karma\lib\launchers\base.js" />
+    <Content Include="node_modules\karma\lib\launchers\capture_timeout.js" />
+    <Content Include="node_modules\karma\lib\launchers\process.js" />
+    <Content Include="node_modules\karma\lib\launchers\retry.js" />
+    <Content Include="node_modules\karma\lib\logger.js" />
+    <Content Include="node_modules\karma\lib\middleware\common.js" />
+    <Content Include="node_modules\karma\lib\middleware\karma.js" />
+    <Content Include="node_modules\karma\lib\middleware\proxy.js" />
+    <Content Include="node_modules\karma\lib\middleware\runner.js" />
+    <Content Include="node_modules\karma\lib\middleware\source_files.js" />
+    <Content Include="node_modules\karma\lib\middleware\stopper.js" />
+    <Content Include="node_modules\karma\lib\middleware\strip_host.js" />
+    <Content Include="node_modules\karma\lib\plugin.js" />
+    <Content Include="node_modules\karma\lib\preprocessor.js" />
+    <Content Include="node_modules\karma\lib\reporter.js" />
+    <Content Include="node_modules\karma\lib\reporters\base.js" />
+    <Content Include="node_modules\karma\lib\reporters\base_color.js" />
+    <Content Include="node_modules\karma\lib\reporters\dots.js" />
+    <Content Include="node_modules\karma\lib\reporters\dots_color.js" />
+    <Content Include="node_modules\karma\lib\reporters\multi.js" />
+    <Content Include="node_modules\karma\lib\reporters\progress.js" />
+    <Content Include="node_modules\karma\lib\reporters\progress_color.js" />
+    <Content Include="node_modules\karma\lib\runner.js" />
+    <Content Include="node_modules\karma\lib\server.js" />
+    <Content Include="node_modules\karma\lib\stopper.js" />
+    <Content Include="node_modules\karma\lib\temp_dir.js" />
+    <Content Include="node_modules\karma\lib\url.js" />
+    <Content Include="node_modules\karma\lib\watcher.js" />
+    <Content Include="node_modules\karma\lib\web-server.js" />
+    <Content Include="node_modules\karma\requirejs.config.tpl.js" />
+    <Content Include="node_modules\karma\static\client.html" />
+    <Content Include="node_modules\karma\static\context.html" />
+    <Content Include="node_modules\karma\static\context.js" />
+    <Content Include="node_modules\karma\static\debug.html" />
+    <Content Include="node_modules\karma\static\debug.js" />
+    <Content Include="node_modules\karma\static\favicon.ico" />
+    <Content Include="node_modules\karma\static\karma.js" />
+    <Content Include="node_modules\karma\wallaby.js" />
+    <Content Include="scripts\angular-charts.min.js" />
+    <Content Include="scripts\angular-mocks.js" />
+    <Content Include="scripts\angular-resource.js" />
+    <Content Include="scripts\angular-route.js" />
+    <Content Include="scripts\angular-ui-router.js" />
+    <Content Include="scripts\angular.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\d3.js" />
+    <Content Include="scripts\jquery.js" />
+    <Content Include="scripts\mask.js" />
+    <Content Include="scripts\require.js" />
+    <Content Include="scripts\toastr.js" />
+    <Content Include="scripts\ui-bootstrap-tpls-1.2.1.js" />
+    <Content Include="styles\app.css" />
+    <Content Include="index.html" />
+    <Content Include="styles\bootstrap-theme.css" />
+    <Content Include="styles\bootstrap.css" />
+    <Content Include="styles\toastr.css" />
+    <Content Include="web.config" />
+    <Content Include="ztesting\lib\jasmine-2.4.1\boot.js" />
+    <Content Include="ztesting\lib\jasmine-2.4.1\console.js" />
+    <Content Include="ztesting\lib\jasmine-2.4.1\jasmine-html.js" />
+    <Content Include="ztesting\lib\jasmine-2.4.1\jasmine.css" />
+    <Content Include="ztesting\lib\jasmine-2.4.1\jasmine.js" />
+    <Content Include="ztesting\lib\jasmine-2.4.1\jasmine_favicon.png" />
+    <Content Include="ztesting\SpecRunner.html" />
+    <Content Include="ztesting\spec\PlayerSpec.js" />
+    <Content Include="ztesting\spec\SpecHelper.js" />
+    <Content Include="ztesting\src\Player.js" />
+    <Content Include="ztesting\src\Song.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="app\app.ts" />
+    <TypeScriptCompile Include="app\common\services\common.services.ts" />
+    <TypeScriptCompile Include="app\common\services\dataAccessService.ts" />
+    <TypeScriptCompile Include="app\common\services\productResourceMock.ts" />
+    <TypeScriptCompile Include="app\common\services\productService.ts" />
+    <TypeScriptCompile Include="app\products\prices\priceAnalyticsCtrl.ts" />
+    <TypeScriptCompile Include="app\products\ProductEditCtrl.ts" />
+    <TypeScriptCompile Include="app\WelcomeCtrl.ts" />
+    <TypeScriptCompile Include="domain\product.ts" />
+    <TypeScriptCompile Include="app\products\productDetailCtrl.ts" />
+    <TypeScriptCompile Include="app\products\productListCtrl.ts" />
+    <TypeScriptCompile Include="typings\angular-ui-bootstrap\angular-ui-bootstrap.d.ts" />
+    <TypeScriptCompile Include="typings\angular-ui-router\angular-ui-router.d.ts" />
+    <TypeScriptCompile Include="typings\angularjs\angular-mocks.d.ts" />
+    <TypeScriptCompile Include="typings\angularjs\angular-resource.d.ts" />
+    <TypeScriptCompile Include="typings\angularjs\angular-route.d.ts" />
+    <TypeScriptCompile Include="typings\angularjs\angular.d.ts" />
+    <TypeScriptCompile Include="typings\bootstrap\bootstrap.d.ts" />
+    <TypeScriptCompile Include="typings\chartjs\chart.d.ts" />
+    <TypeScriptCompile Include="typings\jasmine\jasmine.d.ts" />
+    <TypeScriptCompile Include="typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="typings\requirejs\require.d.ts" />
+    <TypeScriptCompile Include="typings\toastr\toastr.d.ts" />
+    <TypeScriptCompile Include="typings\tsd.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tsd.json" />
+    <Content Include="package.json" />
+    <Content Include="node_modules\karma\appveyor.yml" />
+    <Content Include="node_modules\karma\bin\karma" />
+    <Content Include="node_modules\karma\CHANGELOG.md" />
+    <Content Include="node_modules\karma\CODE_OF_CONDUCT.md" />
+    <Content Include="node_modules\karma\config.tpl.coffee" />
+    <Content Include="node_modules\karma\config.tpl.ls" />
+    <Content Include="node_modules\karma\console.log" />
+    <Content Include="node_modules\karma\ISSUE_TEMPLATE.md" />
+    <Content Include="node_modules\karma\LICENSE" />
+    <Content Include="node_modules\karma\package.json" />
+    <Content Include="node_modules\karma\README.md" />
+    <Content Include="node_modules\karma\requirejs.config.tpl.coffee" />
+    <Content Include="node_modules\karma-chrome-launcher\CHANGELOG.md" />
+    <Content Include="node_modules\karma-chrome-launcher\package.json" />
+    <Content Include="node_modules\karma-chrome-launcher\README.md" />
+    <Content Include="node_modules\karma-jasmine\CHANGELOG.md" />
+    <Content Include="node_modules\karma-jasmine\integration-tests.sh" />
+    <Content Include="node_modules\karma-jasmine\LICENSE" />
+    <Content Include="node_modules\karma-jasmine\package.json" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <Content Include="ztesting\MIT.LICENSE" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="fonts\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>MyTypeScriptAngularApp</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49347</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49347/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>

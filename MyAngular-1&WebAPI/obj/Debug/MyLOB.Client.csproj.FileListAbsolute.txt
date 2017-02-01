@@ -1,0 +1,12 @@
+C:\Experiments\SvsLineOfBusiness\bin\MyLOB.Client.dll.config
+C:\Experiments\SvsLineOfBusiness\bin\MyLOB.Client.dll
+C:\Experiments\SvsLineOfBusiness\bin\MyLOB.Client.pdb
+C:\Experiments\SvsLineOfBusiness\obj\Debug\MyLOB.Client.dll
+C:\Experiments\SvsLineOfBusiness\obj\Debug\MyLOB.Client.pdb
+C:\Experiments\SvsLineOfBusiness\obj\Debug\MyLOB.Client.csprojResolveAssemblyReference.cache
+C:\Experiments\SvsLineOfBusiness-Angular&WebAPI\bin\MyLOB.Client.dll.config
+C:\Experiments\SvsLineOfBusiness-Angular&WebAPI\bin\MyLOB.Client.dll
+C:\Experiments\SvsLineOfBusiness-Angular&WebAPI\bin\MyLOB.Client.pdb
+C:\Experiments\SvsLineOfBusiness-Angular&WebAPI\obj\Debug\MyLOB.Client.csprojResolveAssemblyReference.cache
+C:\Experiments\SvsLineOfBusiness-Angular&WebAPI\obj\Debug\MyLOB.Client.dll
+C:\Experiments\SvsLineOfBusiness-Angular&WebAPI\obj\Debug\MyLOB.Client.pdb

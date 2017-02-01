@@ -1,0 +1,1 @@
+//# sourceMappingURL=productResource.js.map

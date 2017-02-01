@@ -1,0 +1,59 @@
+﻿<div class="panel panel-primary">
+    <div class="panel-heading"
+         style="font-size: large">
+        {{::vm.title}}
+    </div>
+    <div class="panel-body">
+        <table class="table">
+            <thead>
+                <tr>
+                    <td>
+                        <button type="button"
+                                class="btn btn-primary"
+                                ng-click="vm.toggleImage()">
+                            {{vm.showImage ? "Hide" : "Show"}} Image
+                        </button>
+                    </td>
+                    <td>Product</td>
+                    <td>Code</td>
+                    <td>Available</td>
+                    <td>
+                        Price
+
+                    </td>
+                    <td>
+                        
+                      <input type="text" placeholder="Search" name="prdSrch" id="prdSrch" ng-model="vm.filterBy" style="width: 75px; float: left; margin-right: 2px; margin-left: -20px;" class="form-control" />
+                        <input type="button" class="btn btn-primary" value="Reload" ng-click="vm.reloadData()" />
+                        <span>Count:{{vm.numberOfProducts}}</span>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr ng-repeat="product in vm.products|orderBy:vm.orderByField|filter : vm.filterBy">
+                    <td>
+                        <img ng-if="vm.showImage"
+                             ng-src="{{product.imageUrl}}"
+                             style="width: 50px; margin: 2px"
+                             title="{{product.productName}}">
+                    </td>
+                    <td>
+                        <a ui-sref="productDetails({productId:product.productId})">
+                            {{ product.productName}}
+                        </a>
+                    </td>
+                    <td>{{ product.productCode }}</td>
+                    <td>{{ product.releaseDate | date }}</td>
+                    <td>{{ product.price | currency }}</td>
+                    <td>
+                        <a class="btn btn-primary" ui-sref="editProduct.productInfo({productId:product.productId})">Edit</a>
+                        <a class="btn btn-primary" ui-sref="editProduct.productInfo({oldProductId:product.productId,productId:0})">Clone</a>
+                        <a class="btn btn-primary" ng-click="vm.deleteProduct(product.productId)" >Delete</a>
+                    </td>
+                   
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

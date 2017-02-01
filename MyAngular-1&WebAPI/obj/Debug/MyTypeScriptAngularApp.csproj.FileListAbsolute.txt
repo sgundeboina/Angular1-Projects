@@ -1,0 +1,6 @@
+C:\Experiments\MyTypeScriptAngularApp\bin\MyTypeScriptAngularApp.dll.config
+C:\Experiments\MyTypeScriptAngularApp\bin\MyTypeScriptAngularApp.dll
+C:\Experiments\MyTypeScriptAngularApp\bin\MyTypeScriptAngularApp.pdb
+C:\Experiments\MyTypeScriptAngularApp\obj\Debug\MyTypeScriptAngularApp.dll
+C:\Experiments\MyTypeScriptAngularApp\obj\Debug\MyTypeScriptAngularApp.pdb
+C:\Experiments\MyTypeScriptAngularApp\obj\Debug\MyTypeScriptAngularApp.csprojResolveAssemblyReference.cache
